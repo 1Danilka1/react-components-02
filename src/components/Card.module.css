@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'nunito';
+    src: url(../../public/Nunito-Regular.ttf);
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.main_box {
+    height: 320px;
+    width: 220px;
+    background-color: #fff;
+    border-radius: 3%;
+}
+
+p {
+    margin: 0;
+    font-family: 'nunito';
+}
+
+h1 {
+    margin: 0;
+    font-family: 'nunito';
+    font-weight: 500;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.ul_about {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 140px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li_about {
+    margin-top: 15px;
+}
+
+.ul_info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.li_info {
+    height: 55px;
+    width: 73px;
+    border: 1px solid grey;
+    background-color: rgb(230, 230, 230);
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding-top: 5px;
+}
+
+.p_info {
+    text-align: center;
+    font-size: 14px;
+}
