@@ -39,3 +39,4 @@ Card.protoTypes = {
     likes: PropTypes.number,
 }
 
+
